@@ -1,3 +1,4 @@
+package src.app;
 public class LinkNode<G> {
     public G object;
     public LinkNode<G> next;

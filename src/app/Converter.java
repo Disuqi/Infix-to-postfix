@@ -1,3 +1,4 @@
+package src.app;
 import java.security.InvalidParameterException;
 
 public class Converter {
@@ -54,6 +55,7 @@ public class Converter {
         }
         return result.toString();
     }
+    
     //it first adds the parenthesis to multiplicants and then addittions and subtractions, as this is the correct order
     private void parenthesis(){
         //the for loop goes through every character in the expression

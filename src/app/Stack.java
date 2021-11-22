@@ -1,3 +1,4 @@
+package src.app;
 public interface Stack<G> {
     public boolean isEmpty();
     public G peek();

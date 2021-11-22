@@ -1,3 +1,4 @@
+package src.app;
 import java.util.EmptyStackException;
 
 public class LinkedStack<G> implements Stack<G>{
